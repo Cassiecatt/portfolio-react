@@ -12,7 +12,6 @@ function About() {
             style={{ width: "10%" }}
             alt="cover"
           />
-          <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
         </div>
         <h4>Currently:</h4>
         <p>
