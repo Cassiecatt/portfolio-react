@@ -8,7 +8,7 @@ function About() {
         <div className="profile-img my-5">
           <img
             src={profilePic}
-            className="my-2"
+            className="my-2 rounded"
             style={{ width: "10%" }}
             alt="cover"
           />
