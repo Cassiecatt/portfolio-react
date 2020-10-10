@@ -7,7 +7,7 @@ function Portfolio() {
   const [projects] = useState([
     {
       name: 'budget-tracker',
-      description: 'Express/service worker',
+      description: 'Express/ServiceWorkers',
       link: "https://github.com/Cassiecatt/budget-tracker",
       repo: "https://github.com/Cassiecatt/"
     },

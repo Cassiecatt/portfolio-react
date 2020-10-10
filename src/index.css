@@ -8,8 +8,9 @@ main {
   --secondary: #31343D;
   --tertiary: #b12704;
   --light: #fafafa;
-  --dark: #799FBA;
-  --darker: #1F3B60;
+  --black: #000000;
+  --dark: #7a6263;
+  --pale: #c1bdb3;
   --alpha: rgba(255,255,255,.7);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -33,9 +34,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--darker);
-  color: var(--light);
-  font-family: 'Open Sans', sans-serif;
+  background: var(--pale);
+  color: var(--black);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h1,
@@ -44,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Aladin', cursive;
+  font-family: 'Aladin';
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -172,6 +173,7 @@ header {
 header h1 {
   position: relative;
   z-index: 2;
+  color: var(--light);
 }
 
 header img {
@@ -185,7 +187,7 @@ header img {
 
 nav {
   position: relative;
-  font-family: 'Aladin', cursive;
+  font-family: 'Aladin';
   font-size: 2.5rem;
   margin: 30px 20px;
 }
@@ -198,6 +200,7 @@ nav li {
   cursor: pointer;
   text-shadow: 2px 2px 10px rgba(0,0,0, 0.5);
   margin: 0 50px;
+  color: var(--light);
 }
 
 ul.skills {
@@ -321,7 +324,7 @@ textarea {
 }
 
 .project-text {
-    color: var(--secondary);
+    color: var(--black);
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -351,7 +354,7 @@ textarea {
 }
 
 .project-text a:hover {
-  color: var(--darker);
+  color: var(--black);
 }
 
 .navActive {
