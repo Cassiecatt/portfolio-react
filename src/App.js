@@ -1,10 +1,16 @@
 import React from 'react';
+import Header from "./components/Header";
+import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
+    <div>
+      <Header>
+        <Nav
+        ></Nav>
+      </Header>
+      <main>
+      </main>
     </div>
   );
 }
