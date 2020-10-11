@@ -9,8 +9,9 @@ function About() {
           <img
             src={profilePic}
             className="my-2 rounded"
-            style={{ width: "10%" }}
-            alt="cover"
+            style={{ width: "20%" }}
+            alt="profile-img"
+            id="profilePic"
           />
         </div>
         <h4>Currently:</h4>

@@ -3,7 +3,6 @@ import Project from "../Project";
 
 function Portfolio() {
 
-  // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
       name: 'budget-tracker',
@@ -40,10 +39,10 @@ function Portfolio() {
   return (
     <div>
       <div className="flex-row">
-        {projects.map((project, idx) => (
+        {projects.map((project, i) => (
           <Project
             project={project}
-            key={"project" + idx}
+            key={"project" + i}
           />
         ))}
       </div>
