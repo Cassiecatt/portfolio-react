@@ -33,7 +33,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 * THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 ## Deployed URL
-[Github]()
+[Github](https://cassiecatt.github.io/portfolio-react)
 
 ## Portfolio Screenshot
-![Example]()
+![Example](https://cassiecatt.github.io/portfolio-react/src/assets/project-screenshot.png)
