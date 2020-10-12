@@ -22,6 +22,7 @@ function Resume() {
           <li>NoSQL, MongoDB, Mongoose</li>
         </ul>
       </div>
+      <p>Download Resume <a href="https://www.linkedin.com/in/cassie-cattabiani-8a529610a/">here!</a></p>
     </section>
   );
 }
