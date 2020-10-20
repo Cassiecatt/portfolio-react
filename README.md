@@ -36,5 +36,5 @@ SO THAT I can assess whether they're a good candidate for an open position
 [Github](https://cassiecatt.github.io/portfolio-react)
 
 ## Portfolio Screenshot
-![App](https://github.com/Cassiecatt/portfolio-react/blob/master/project-screenshot.png)
+![Application](https://github.com/Cassiecatt/portfolio-react/blob/master/project-screenshot.png)
 
